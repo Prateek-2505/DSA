@@ -123,4 +123,6 @@ void main()
         printf("Do you want to continue... if yes enter 'y'\n");
         fflush(stdin);
     } while (getchar() == 'y');
+
+    return 0;
 }

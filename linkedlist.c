@@ -260,4 +260,6 @@ int displayrev(struct linkedlist *header)
         displayrev(header->next_ptr);
     }
     printf("data in node %d = %d\n", --count, header->data);
+
+    return 0;
 }
